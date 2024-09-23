@@ -1,0 +1,12 @@
+[package]
+name = "v-plic"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+axconfig = { path = "/arceos_2024S/arceos/modules/axconfig" }
+axlog = { path = "/arceos_2024S/arceos/axlog" }
+spin = { version = "0.9", optional = true }
